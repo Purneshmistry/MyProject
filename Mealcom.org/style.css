@@ -1,0 +1,536 @@
+*{
+	border-style:none;
+	padding: 0px;
+	margin: 0px;
+}
+.mdl-layout__header{
+	background-color:#4f3224;
+}
+.mdl-layout__drawer-button i{
+	margin-top: 12px;
+}
+
+
+.mdl-layout-title img{
+	height:50px;
+}
+#imt{
+	height:20px;
+}
+#navtil{
+	height:30px;
+	padding-top:15px;
+}
+.mdl-navigation__link:hover{
+	color:#68eeb4;
+}
+
+.capimg{
+    background-image: url('Mealbg.png');
+	background-size: auto 162%;
+	width: 100%;
+	height:73vh;
+}
+.cover{
+	background-color: rgba(0,0,0,0.4);
+	height: 100%;
+}
+
+.mdl-grid{
+	padding:62px 62px 45px 75px;
+	text-align:center;
+}
+/*.mdl-grid-menu{
+	padding:71px 100px 68px 500px;
+	text-align:center;
+}*/
+
+@media screen and (min-width: 804px) {
+	#caption{
+	padding-top:163px;
+	text-align:center;
+	color:#ffffff;
+	}
+ #cap1{
+	font-size:40px;
+  }
+  #cap2{
+	padding:0px;
+	font-size:5em;
+	}
+	#cap3{
+	font-size:2.7em;
+}
+}
+@media screen and (max-width: 803px) {
+	#caption{
+	padding-top:50px;
+	text-align:center;
+	color:#ffffff;
+	}
+   #cap1{
+	font-size:25px;
+  }
+  #cap2{
+	font-size:5em;
+	}
+	#cap3{
+	font-size:2.2em;
+}
+}
+@media screen and (max-width: 500px) {
+	#caption{
+	padding-top:50px;
+	text-align:center;
+	color:#ffffff;
+	}
+   #cap1{
+	font-size:25px;
+  }
+  #cap2{
+	font-size:4em;
+	}
+	#cap3{
+	font-size:2.2em;
+}
+}
+@media screen and (max-width: 360px) {
+	#caption{
+	padding-top:50px;
+	text-align:center;
+	color:#ffffff;
+	}
+   #cap1{
+	font-size:20px;
+  }
+  #cap2{
+	font-size:3.0em;
+	}
+	#cap3{
+	font-size:2.3em;
+}
+}
+
+#menulist{
+	background-image: url('menuback.jpg');
+	background-size: cover;
+	vertical-align: middle;
+	width: 100%;
+
+}
+
+
+.logo-container{
+	display: inline-flex;
+	padding: 20px;
+
+}
+
+.fssai{
+	padding: 50px;
+}
+#fssailogo{
+	padding-top: 24px;
+	    width: 130px;
+    padding-left: 30px;
+}
+.gov{
+	padding: 50px;
+}
+#govlogo{
+	 width: 90px;
+    padding-left: 30px;
+}
+.madeby{
+	padding: 50px;
+}
+#madebylogo{
+	 width: 90px;
+    padding-left: 30px;	
+}
+#foodpacket{
+	
+	    width: 117px;
+    
+}
+#delivery{
+	width: 120px;
+}
+#bestif{
+	width: 168px;
+}
+
+
+
+.servicebox{
+	max-width: 100%;
+	padding:0px;
+	text-align: center;
+}
+.servicebox img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	width: 70px;
+}
+
+.title{
+	background: rgba(0,0,0,0.4);
+	color:#ffffff;
+	height:60px;
+}
+.title h3{
+	text-align: center;
+	font-size: 40px;
+	padding-top: 9px;
+	vertical-align: middle;
+}
+.titleabout{
+	background-color:#68eeb4;
+	color:#ffffff;
+	height:60px;	
+}
+.titleabout h3{
+	text-align: center;
+	padding-top: 9px;
+	font-size: 40px;
+	vertical-align: middle;	
+}
+
+#item{
+	font-size:20px;
+}
+
+#nopadd{
+	padding-top:10px;
+}
+
+.demo-card-square.mdl-card {
+  width: 320px;
+  height: 320px;
+}
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  background-image:url('man1.jpg');
+  background-color:#46B6AC;
+  background-position:no-repeat;
+  background-size: auto 210%;
+}
+
+p{
+	margin: 0px 1px 17px 0px;
+}
+
+/*testimonial css*/
+h2 {
+	color: #333;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	position: relative;
+	margin: 30px 0 60px;
+}
+h2::after {
+	content: "";
+	width: 100px;
+	position: absolute;
+	margin: 0 auto;
+	height: 3px;
+	background: #8fbc54;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+}
+.testimonial{
+	font-size: 17px;
+}
+.col-center {
+	margin: 0 auto;
+	float: none !important;
+}
+.carousel {
+	margin: 50px auto;
+	padding: 0 70px;
+}
+.carousel .item {
+	color: #999;
+	font-size: 14px;
+    text-align: center;
+	overflow: hidden;
+    min-height: 290px;
+}
+.carousel .item .img-box {
+	width: 135px;
+	height: 135px;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+.carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.carousel .testimonial {
+	padding: 30px 0 10px;
+}
+.carousel .overview {	
+	font-style: italic;
+}
+.carousel .overview b {
+	text-transform: uppercase;
+	color: #68eeb4;
+}
+.carousel .carousel-control {
+	width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    top: 50%;
+	background: none;
+	background-color: white;
+}
+.carousel-control i {
+    font-size: 68px;
+	line-height: 42px;
+    position: absolute;
+    display: inline-block;
+	color: rgba(0, 0, 0, 0.8);
+    text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+.carousel .carousel-indicators {
+	bottom: -40px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 10px;
+	height: 10px;
+	margin: 1px 3px;
+	border-radius: 50%;
+}
+.carousel-indicators li {	
+	background: #999;
+	border-color: transparent;
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.carousel-indicators li.active {	
+	background: #555;		
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+#hrtag{
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 2px;
+}
+.footer {
+    padding: 30px 0px 40px 0px;
+    background-color: #000000;
+}
+.social {	
+    vertical-align: middle;
+}
+/*footer*/
+.footer-distributed{
+	background-color: #4f3224;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 60px 55px;
+	margin-top: 0px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #68eeb4;
+	color: #111;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 15px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	background-color:  #68eeb4;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #111;
+	text-align: center;
+	line-height: 35px;
+	padding-top: 10PX;
+	margin-right: 3px;
+	margin-bottom: 0px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 800px) {
+
+	.footer-distributed{
+		font: bold 12px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+
+.scroll-top {
+	background-color: #4f3224;
+    width: 65px;
+    height: 65px;
+    position: fixed;
+    bottom: 25px;
+    right:  20px;
+   
+
+}
+.scroll-top i {
+    display: inline-block;
+    color: white;
+}
+
+.titlewhyus {
+    background:#68eeb4;
+    color: #ffffff;
+    height: 60px;
+}
+.titlewhyus h3 {
+    margin: 0px 0px;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 9px;
+    vertical-align: middle;
+}
+
+
